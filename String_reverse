@@ -1,0 +1,14 @@
+string = input("Enter the string to reverse it!...\n")
+
+print("\n1-->The original string is\n",string,"\n")
+print("2-->The reversed string is\n",string[::-1])
+
+-------------------------------------------------------
+Output
+Enter the string to reverse it!...
+Hello
+
+1-->The original string is
+Hello
+2-->The reversed string is
+olleH
