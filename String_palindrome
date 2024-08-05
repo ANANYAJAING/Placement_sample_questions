@@ -1,0 +1,16 @@
+# It doesn't bother about the uppercase and lowercase characters because lower() will convert all the character to lowercase letters
+
+string = input("Enter the string to check for palindrome\n")
+
+if string[::].lower() == string[::-1].lower():
+    print("\nThe string is plaindrome!\n")
+else:
+    print("\nThe string is not a palindrome!\n")
+
+--------------------------------------------------------
+Output:
+Enter the string to check for palindrome
+Madam
+
+The string is plaindrome!
+ 
