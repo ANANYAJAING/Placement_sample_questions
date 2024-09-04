@@ -1,0 +1,10 @@
+Finding the maximum and minimum of an array
+
+def max_min(arr):
+    print("Maximin element:",max(arr))
+    print("Minimum element:",min(arr))
+    
+n = int(input())
+num = list(map(int,input().split()))
+arr = np.array(num)
+max_min(arr)
