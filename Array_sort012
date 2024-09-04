@@ -1,0 +1,10 @@
+# Sorting the array with the elements 0,1 and 2
+
+import numpy as np
+def sort012(arr):
+     print(sorted(arr))
+
+n = int(input())
+num = list(map(int,input().split()))
+arr = np.array(num)
+sort012(arr)
