@@ -1,0 +1,13 @@
+n = int(input("Enter the length of the pattern: "))
+
+for i in range(1,n+1):
+   print("*\t"*i)
+
+------------------------------------------------------------
+Ouput:
+Enter the length of the pattern: 5
+*
+*  *
+*  *  *
+*  *  *  *
+*  *  *  *  *
