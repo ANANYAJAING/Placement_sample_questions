@@ -1,0 +1,14 @@
+n = int(input("Enter the length: ")
+
+n=5
+while(n!=0):
+   print("*\t"*n)
+   n-=1
+
+------------------------------------------------------------------
+Output:
+Enter the length: 3
+
+*  *  *
+*  *
+*
